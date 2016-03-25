@@ -1,0 +1,131 @@
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.12.2.js"></script>
+  <script src="js/script.js"></script>
+  <title>Vacation Finder</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to <strong>Vacation Finder</strong>! Your website for vacation search.</h2>
+      <h4>To start searching, please answer the questions bellow so we can help you find the best spot for your next vacation.</h4>
+<!--  --------------------->
+    <form id="questions">
+<!--  --------------------->
+      <div class="radio">
+        <p>Where do you want to go?</p>
+        <label>
+          <input type="radio" name="country" value= checked> U.S
+        </label>
+      </div>
+      <!--  Radio Buttons------------------------->
+      <div class="radio">
+        <label>
+          <input type="radio" name="country" value="Overseas" checked>Overseas
+        </label>
+      </div>
+<!-- Radio Buttons ------------------------->
+        <div class="radio">
+          <p>What kind of vacation spot are you looking for?</p>
+          <label>
+            <input type="radio" name="spot" value="Mountain" checked>Mountain
+          </label>
+        </div>
+<!--  Radio Buttons------------------------->
+        <div class="radio">
+          <label>
+            <input type="radio" name="spot" value="Beach" checked>Beach
+          </label>
+        </div>
+<!--  Radio Buttons----------------------->
+        <div class="radio">
+          <label>
+            <input type="radio" name="spot" value="Snow" checked>Snow
+          </label>
+        </div>
+<!--  --------------------->
+      <label for="age">How old are you?</label>
+        <select id="age" class="form-control" required>
+          <option value="under21">under 21</option>
+          <option value="under30">21-30</option>
+          <option value="over40">31-40</option>
+          <option value="over50">41-50</option>
+        </select>
+<!--  --------------------->
+      <label for="days">How long are you going on vacation for?</label>
+        <select id="days" class="form-control" required>
+          <option value="under1week">under 1 week</option>
+          <option value="1week">1 week</option>
+          <option value="2weeks">2 weeks</option>
+          <option value="3weeks">3 weeks</option>
+          <option value="4weeks">4 weeks&ampover</option>
+        </select>
+<!--  --------------------->
+      <label for="company">Who are you going on vacation with?</label>
+        <select id="company" class="form-control">
+          <option value="friend">friend, boyfriend, fiance</option>
+          <option value="family">husband, child/children, husband&ampchildren</option>
+          <option value="family2">mother, father</option>
+        </select>
+      <!--  --------------------->
+      <label for="last3">List the last 3 places you have gone on vacation</label>
+        <input id="last3" type="text" class="form-control">
+      <!--  --------------------->
+      <label for="bestplaces">List at least 1 place where you had the best time while on vacation</label>
+        <input id="3places" type="text" class="form-control">
+      <!--  --------------------->
+      <button type="submit" class="btn">Submit</button>
+<!--  --------------------->
+    </form>
+
+    <div class="results">
+    <h2>These are our suggestions accoring to your answers:</h2>
+<!--  --------------------->
+        <div class="rio">
+          <h3> Rio de Janeiro</h3>
+            <img src="css/img/rio.jpg" alt="Rio de Janeiro">
+            <p><strong>Rio de Janeiro</strong>, or simply <i>Rio</i>, is the second most populous municipality in Brazil and the sixth largest city in the Americas. The metropolis is anchor to the Rio de Janeiro metropolitan area, the second most populous metropolitan area in Brazil and seventh most populous in the Americas.<a href="https://en.wikipedia.org/wiki/Rio_de_Janeiro"><b>...read more</b></a></p>
+        </div>
+<!--  --------------------->
+        <div class="tahiti">
+          <h3> Tahiti</h3>
+            <img src="css/img/tahiti.jpg" alt="Tahiti">
+            <p><strong>Tahiti</strong>is the largest island in the Windward group of French Polynesia; this overseas collectivity of the <i>French Republic</i> is sometimes referred to as an overseas country.The island is located in the archipelago of the Society Islands in the central Southern Pacific Ocean, and is divided into two parts: The bigger, northwestern part <em>Tahiti Nui</em>and the smaller, southeastern part <em>Tahiti Iti</em>.<a href="https://en.wikipedia.org/wiki/Tahiti"><b>...read more</b></a></p>
+        </div>
+<!--  --------------------->
+        <div class="hawaii">
+          <h3> Hawaii</h3>
+            <img src="css/img/hawaii.jpg" alt="Hawaii">
+            <p><strong>Hawaii</strong> is the 50th and most recent state of the United States of America, receiving statehood on August 21, 1959. Hawaii is the only U.S. state located in Oceania and the only one composed entirely of islands. It is the northernmost island group in Polynesia, occupying most of an archipelago in the central Pacific Ocean. Hawaii is the only U.S. state not located in the Americas.<a href="https://en.wikipedia.org/wiki/Hawaii">...<b>read more</b></a></p>
+        </div>
+<!--  --------------------->
+        <div class="greenland">
+          <h3> Greenland</h3>
+            <img src="css/img/greenland1.jpg" alt="Greenland">
+            <p><strong>Greenland</strong> is an autonomous country within the Danish Realm, located between the Arctic and Atlantic Oceans, east of the Canadian Arctic Archipelago. Though physiographically a part of the continent of North America, Greenland has been politically and culturally associated with <em>Europe</em>.<a href="https://en.wikipedia.org/wiki/Greenland">...<b>read more</b></a></p>
+        </div>
+<!------------------------------->
+        <div class="aspen">
+          <h3> Aspen, Colorado</h3>
+            <img src="css/img/aspen0.jpg" alt="Aspen, Colorado">
+            <p><strong>The City of Aspen</strong> is the Home Rule Municipality that is the county seat and the most populous municipality of Pitkin County, Colorado, United States.[1][2] The city population was 6,658 at the 2010 United States Census. Aspen is situated in a remote area of the Rocky Mountains' Sawatch Range and Elk Mountains, along the Roaring Fork River at an elevation just below 8,000 feet (2,400 m).<a href="https://en.wikipedia.org/wiki/Aspen,_Colorado">...<b>read more</b></a></p>
+        </div>
+<!------------------------------->
+        <div class="oregon">
+          <h3>Oregon</h3>
+            <img src="css/img/oregon.jpg" alt="Church Mountain, Oregon">
+            <p><strong>Oregon</strong> is a state in the Pacific Northwest region of the United States. Oregon is bordered on the west by the Pacific Ocean, on the north by Washington, on the south by California, on the east by Idaho, and on the southeast by Nevada. The Columbia River delineates much of Oregon's northern boundary, and the Snake River delineates much of the eastern boundary. The parallel 42° north delineates the southern boundary with California and Nevada.<a href="https://en.wikipedia.org/wiki/Oregon">...<b>read more</b></a></p>
+        </div>
+<!------------------------------->
+        <div class="machupicchu">
+          <h3>Machu Picchu</h3>
+            <img src="css/img/machu.jpg" alt="Machu Picchu">
+            <p><strong>Machu Picchu</strong> or <i>Machu Pikchu</i> (Quechua machu old, old person, pikchu peak; mountain or prominence with a broad base which ends in sharp peaks, "old peak", is a 15th-century Inca site located 2,430 metres (7,970 ft) above sea level. It is located in the Cusco Region, Urubamba Province, Machupicchu District in Peru.<a href="https://en.wikipedia.org/wiki/Machu_Picchu">...<b>read more</b></a></p>
+        </div>
+
+<!------------------------------->
+
+    </div>
+  </body>
+</html>
